@@ -1,0 +1,127 @@
+.details{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #040C18;
+}
+.details-image{
+    margin-top: 3rem;
+
+}
+.details-image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    
+}
+.details-text{
+    margin-left: 10rem;
+}
+.details-text h4{
+     color: #71E5FF;
+}
+.details-text h1{
+   font-size: 30px;
+   font-weight: bold;
+}
+.details-text p{
+    color: #81AFDD;
+}
+.details-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.details-heaing{
+    display: flex;
+    
+    align-items: center;
+    width: 280px;
+}
+.details-heaing span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #81AFDD;
+}
+.details-heaing p{
+  margin-right: 1rem;
+}
+.details-socialmedia {
+    display: flex;
+    align-items: center;
+}
+.details-socialmedia p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.details-socialmedia ul{
+    display: flex;
+    list-style: none;
+    
+}
+.details-socialmedia li{
+    margin: 0 1rem;
+   
+}
+.details-socialmedia a{
+    color: #71E5FF;
+}
+.details_button1{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-right: 2rem;
+
+}
+.details_button2{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color:green;
+    border: none;
+    color: white;
+    
+   
+}
+@media screen and (max-width:1050px){
+    .details{
+        padding: 1rem 3rem;
+    }
+    
+    .details-text{
+        margin-left: 3rem;
+    }
+}
+
+@media screen  and (max-width:900px){
+     .details{
+        padding: 0 3rem;
+     }
+    .details-image{
+        display: none;
+    }
+    .details-text{
+        margin: 0;
+    }
+   
+}
+
+@media screen  and (max-width:450px){
+    .details-socialmedia {
+        flex-direction: column;
+    }
+    .details-text h1{
+        font-size: 25px;
+        font-weight: bold;
+     }
+    
+}

@@ -1,0 +1,66 @@
+.hireme{
+    display: flex;
+    justify-content: space-between;
+    background-color:#031B34;
+    padding: 1rem 6rem;
+}
+.hireme-text{
+    padding-top: 3rem;
+}
+.hireme-text p{
+    color: white;
+    font-size: 15px;
+}
+.hireme-text h2{
+    color: white;
+    font-size: 30px;
+}
+.hireme-button{
+    padding-top: 6rem;
+    display: flex;
+}
+.hireme_button1{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-right: 2rem;
+
+}
+.hireme_button2{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color:transparent;
+    
+    color: white;
+    border: 2px solid white;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:900px){
+    .hireme{
+        flex-direction: column;
+        justify-content: center;
+        background-color: #031B34;
+        padding: 1rem ;
+    }
+    .hireme-text{
+        padding-top: 1rem;
+    }
+    .hireme-text h2{
+        color: white;
+        font-size: 20px;
+    }
+    .hireme-button{
+        padding-top: 3rem;
+    }
+    
+
+}

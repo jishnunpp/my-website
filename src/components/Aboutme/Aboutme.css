@@ -1,0 +1,111 @@
+
+.aboutme{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #040C18;
+}
+.aboutme-image{
+  padding: 3rem 1rem;
+ 
+}
+.aboutme-image img{
+    width: 450px;
+    height: 450px;
+    border-radius: 40px;
+    
+    
+}
+.aboutme-text{
+    margin-left: 10rem;
+}
+.aboutme-text h4{
+    color:#71E5FF ;
+}
+
+.aboutme-text p{
+    color:#81AFDD ;
+}
+.aboutme-text h2{
+    color:#81AFDD;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.aboutme-bar-section{
+    margin-top: 3rem;
+}
+.aboutme-bar-section h2{
+    color: #71E5FF ;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutme-bar{
+    background-color: gainsboro;
+    max-width: 500px;
+    height: 5px;
+
+}
+.aboutme-bar-first{
+    width: 85%;
+    height: 5px;
+    background-color: rgb(7, 124, 7);
+}
+.aboutme-bar-second{
+    width: 70%;
+    height: 5px;
+    background-color: green;
+
+}
+.aboutme-bar-third{
+    width: 90%;
+    height: 5px;
+    background-color: green;
+
+}
+@media screen and (max-width:1050px){
+    .aboutme{
+        padding: 1rem 3rem;
+    }
+    .aboutme-text{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:900px){
+    .aboutme{
+        padding: 1rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme-image{
+        padding: 1rem;
+    }
+    .aboutme-text{
+        margin:0;
+    }
+   
+    .aboutme-image img{
+        max-width: 300px;
+        max-height: 300px;
+        
+    }  
+    
+    
+}
+@media screen and (max-width:600px){
+    .aboutme-bar{
+        background-color: gainsboro;
+        max-width: 300px;
+       
+    }  
+    .aboutme-image{
+        padding: 0rem;
+      }
+      .aboutme{
+        padding: 1rem;
+      }
+
+}
+

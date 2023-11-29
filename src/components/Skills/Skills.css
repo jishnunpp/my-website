@@ -1,0 +1,92 @@
+
+.skills{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #040C18;
+}
+.details-image{
+  padding: 1rem;
+}
+.skills-image img{
+    width: 450px;
+    height: 450px;
+    
+    
+}
+.skills-text{
+    margin-left: 10rem;
+}
+.skills-text h4{
+    color: #71E5FF;
+}
+.skills-text p{
+    color: #81AFDD;
+}
+.skills-bar-section{
+    margin-top: 3rem;
+}
+.skills-bar-section h2{
+    color: #71E5FF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skills-bar{
+    background-color: gainsboro;
+    max-width: 500px;
+    height: 5px;
+
+}
+.skills-bar-first{
+    width: 85%;
+    height: 5px;
+    background-color: green;
+}
+.skills-bar-second{
+    width: 70%;
+    height: 5px;
+    background-color: green;
+
+}
+.skills-bar-third{
+    width: 90%;
+    height: 5px;
+    background-color: green;
+
+}
+@media screen and (max-width:1050px){
+    .skills{
+        padding: 1rem 3rem;
+    }
+    .skills-text{
+        margin-left: 3rem;
+    }
+
+}
+@media screen and (max-width:900px){
+    .skills{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-text{
+        margin:0;
+    }
+    .skills-image img{
+        width: 300px;
+        height: 300px;
+        
+    }  
+    
+    
+}
+@media screen and (max-width:600px){
+    .skills-bar{
+        background-color: gainsboro;
+        max-width: 250px;
+       
+    }  
+
+}

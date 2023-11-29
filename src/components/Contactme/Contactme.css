@@ -1,0 +1,69 @@
+.contactme{
+    background-color: gainsboro;  
+    margin-top: 0;
+    padding: 3rem;
+}
+.contactme h1{
+    text-align: center;
+
+}
+.form{
+width: 800px;
+
+margin-left: auto;
+margin-right: auto;
+    
+    
+}
+.form label{
+    text-align:left;
+}
+.form input {
+    width: 800px;
+    height: 40px;
+
+}
+.form  textarea{
+    height: 100px;
+    width: 800px;
+}
+.form button{
+    width: 100px;
+
+}
+
+@media screen and (max-width:900px){
+    .contactme{
+        padding: 1rem;
+    }
+    .contactme input{
+        width: 550px;
+    }
+    .contactme textarea{
+        width: 550px;
+    }
+    .form{
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .contactme{
+        padding: 1rem;
+    }
+    .contactme input{
+        width: 320px;
+    }
+    .contactme textarea{
+        width: 320px;
+    }
+    .form{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
