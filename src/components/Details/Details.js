@@ -53,7 +53,7 @@ const Details = () => {
         </div>
         <div className='details_button-section'>
         <Link to={'contact'}>  <button className='details_button1'>Hire me</button></Link>
-            <button className='details_button2'>My portfolio</button>
+        <Link to={'About'}>   <button className='details_button2'>My portfolio</button></Link>
 
             </div>
       </div>

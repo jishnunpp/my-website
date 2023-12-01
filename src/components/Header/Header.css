@@ -52,6 +52,7 @@
 }
 .navbar_menu-links ul{
     list-style: none;
+    text-decoration: none;
     padding-right: 2rem;
     
 }
