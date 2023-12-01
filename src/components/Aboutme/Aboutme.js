@@ -15,7 +15,8 @@ const Aboutme = () => {
         <h1  className="gradient__text">A Few Words About Me</h1>
         <p>
         I  have been working on my portfolio since 2022. 
-        I Can give your business a new Creative start right away! Contact me and we will discuss your projects!
+        I Can give your business a new Creative start right away! 
+        Contact me and we will discuss your projects!
         </p>
         <h2>Having 1 Years of Experience. I Would Love to make your Ideas real. I Can give your business a new Creative start right away!</h2>
       </div>

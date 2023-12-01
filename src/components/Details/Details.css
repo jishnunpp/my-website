@@ -104,7 +104,7 @@
 
 @media screen  and (max-width:900px){
      .details{
-        padding: 0 2rem;
+        padding:0 2rem;
      }
     .details-image{
         display: none;
