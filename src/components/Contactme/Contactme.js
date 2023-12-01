@@ -5,7 +5,7 @@ const Contactme = () => {
   return (
     <div className='contactme'>
       <h1>Contact Me</h1>
-      <form className='form' action="https://script.google.com/macros/s/AKfycbyV2V3axD7kSKk9CXf7Xl9l_-4GE78apz8uO_3kqZxvpmSobz7N1KuCY-mTZotpuQVH/exec" name="form1" onsubmit="return validate()" method="post">
+      <form className='form' action="https://script.google.com/macros/s/AKfycbw8qbAvMvuAiqz_sq0JbkQmZnuy8PrI5lT-S9knt3mtLE37M8v5BPPG0rYtdHKxQvLDSA/exec" name="form1"  method="post">
           <label >Name:</label><br/>
           <input type="text"  name="name" id="name" /><br/>
 
@@ -24,13 +24,15 @@ const Contactme = () => {
             height="250px"
           ></textarea><br/>
 
-          <button type="submit">Submit</button>
+          <button type="submit" value='submit'>Submit</button>
         </form>
 
         
 
     </div>
+    
   )
+  
 }
 
 export default Contactme
